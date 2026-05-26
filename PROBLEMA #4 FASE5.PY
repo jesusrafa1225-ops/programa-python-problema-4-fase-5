@@ -33,6 +33,7 @@ def videoteca_digital():
 
     return peliculas
 
+# resultado final del programa
 
 resultado = videoteca_digital()
-print("El numero de peliculas que cumplen con los criterios de calificacion y año es:", resultado)
+print(f"El numero de peliculas que cumplen con los criterios es: {resultado}")
